@@ -1,5 +1,5 @@
-// Replace with your live Render app link once deployed
-const API_URL = "https://your-middleware-api.render.com/api/jobs";
+
+const API_URL = "https://job-board-service-ak9c.onrender.com";
 
 let localJobCache = [];
 
