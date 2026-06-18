@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Live Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">RecruitCo</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filter-section">
+            <h2>Find Your Next Role</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-category="All">All Jobs</button>
+                <button class="filter-btn" data-category="Technology">Technology</button>
+                <button class="filter-btn" data-category="Finance">Finance</button>
+                <button class="filter-btn" data-category="Marketing">Marketing</button>
+            </div>
+        </section>
+
+        <div id="status-message" class="loading">Loading positions dynamically...</div>
+
+        <section id="job-board" class="job-grid"></section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
